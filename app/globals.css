@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+
+:root {
+
+
+  --Azul-1: #211F45;
+  --Azul-2: #404266;
+  --Branco-1: #FFFFFF;
+  --Branco-2: #f5f5fa;
+
+  --teste: #f07a7a;
+  
+  --Headings-XXL: 700 3.5rem 'Roboto Slab', serif;
+  --Headings-XL: 700 3rem 'Roboto Slab', serif;
+  --Headings-L: 700 2.5rem 'Roboto Slab', serif;
+  --Headings-M: 700 2rem 'Roboto Slab', serif;
+  --Headings-S: 700 1.5rem 'Roboto Slab', serif;
+  --Headings-XS: 700 1.25rem 'Roboto Slab', serif;
+  --Headings-XXS: 700 1rem 'Roboto Slab', serif;
+
+
+  --Body-XL: 500  1.375rem 'Montserrat', sans-serif;
+  --Body-L: 500 1.125rem 'Montserrat', sans-serif;
+  --Body-M: 500 1rem 'Montserrat', sans-serif;
+  --Body-S: 500 0.875rem 'Montserrat', sans-serif;
+  --Body-XS: 500 0.75rem 'Montserrat', sans-serif;
+
+
+  --Body-Bold-XL: 700 1.375rem 'Montserrat', sans-serif;
+  --Body-Bold-L: 700 1.25rem 'Montserrat', sans-serif;
+  --Body-Bold-M: 700 1rem 'Montserrat', sans-serif;
+  --Body-Bold-S: 700 0.875rem 'Montserrat', sans-serif;
+  --Body-Bold-XS: 700 0.75rem 'Montserrat', sans-serif;
+}
+
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+html,
+body {
+  background-color: var(--Branco-2);
+  max-width: 100vw;
+}
+
+body {
+  overflow-x: hidden;
+}	

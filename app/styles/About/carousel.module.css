@@ -1,0 +1,18 @@
+.nextBtn {
+    position: absolute;
+    right: 0;
+    height: 65%;
+    width: 37%;
+    background-color: transparent;
+    border: none;
+}
+
+.prevBtn {
+    position: absolute;
+    left: 0;
+    height: 65%;
+    width: 37%;
+    background-color: transparent;
+    border: none;
+}
+

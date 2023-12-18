@@ -1,0 +1,38 @@
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: auto;
+    background-color: var(--Azul-1);
+    padding: 1rem 0;
+}
+
+.img {
+    height: 100%;
+    width: auto;
+}
+
+.footer__text {
+    font: var(--Heading-XXS);
+    color: var(--Branco-1);
+    margin: 1rem 0;
+}
+
+.footer__info {
+    font: var(--Body-S);
+    color: var(--Branco-1);
+}
+
+.footer__icon {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem 0;
+}
+
+.footer__icon a {
+    margin: 0 0.5rem;
+}
