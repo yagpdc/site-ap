@@ -1,4 +1,4 @@
-import comment__style from "../styles/Feedback/comments.module.css";
+import comment__style from "../components/_Homepage/_Feedback/Comments/comments.module.css";
 
 const comments = [
     {

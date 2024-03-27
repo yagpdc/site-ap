@@ -1,7 +1,7 @@
 import React from "react";
-import styles from "../../styles/About/about.module.css";
-import Carousel from "./carousel";
-import cards from "../../Helpers/cards";
+import styles from "../Main/about.module.css";
+import Carousel from "../Carousel/carousel";
+import cards from "../../../../Helpers/cards";
 
 function About() {
   return (

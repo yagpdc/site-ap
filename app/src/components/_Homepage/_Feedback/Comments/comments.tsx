@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import styles from "../../styles/Feedback/comments.module.css";
+import styles from "./comments.module.css";
 
 interface commentsProps {
   comments: string;

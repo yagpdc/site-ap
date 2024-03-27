@@ -9,6 +9,9 @@
   --Branco-1: #FFFFFF;
   --Branco-2: #f5f5fa;
 
+  --Amarelo-1: #F2C454;
+
+
   --teste: #f07a7a;
   
   --Headings-XXL: 700 3.5rem 'Roboto Slab', serif;
@@ -44,7 +47,14 @@
 a {
   color: inherit;
   text-decoration: none;
+
 }
+
+/* *:focus {
+  outline: none;
+  border: 2px var(--Amarelo-1) solid;
+  border-radius: 5px;
+} */
 
 html,
 body {
@@ -55,3 +65,10 @@ body {
 body {
   overflow-x: hidden;
 }	
+
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 100vh;
+}

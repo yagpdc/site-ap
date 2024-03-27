@@ -1,6 +1,6 @@
 // Card.tsx
 import React, { CSSProperties } from "react";
-import styles from "../../styles/About/card.module.css";
+import styles from "../Card/card.module.css"
 import Image from "next/image";
 
 export interface CardProps {
