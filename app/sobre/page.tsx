@@ -1,11 +1,10 @@
 import React from 'react'
-import Navbar from '../src/components/_Globais/Navbar/navbar'
-
+import Header from '../src/components/_Sobre/header/header'
 
 function about() {
   return (
     <div>
-      <Navbar></Navbar>
+      <Header></Header>
       <h1>about</h1>
       <h2>about2</h2>
     </div>
