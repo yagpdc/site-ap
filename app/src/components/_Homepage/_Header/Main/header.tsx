@@ -1,7 +1,7 @@
 import React, { ReactNode } from "react";
 import Button from "../Button/button";
 import styles from "./header.module.css";
-import Navbar from "../Navbar/navbar";
+import Navbar from "../../../_Globais/Navbar/navbar";
 import Image from "next/image";
 
 interface SectionProps {

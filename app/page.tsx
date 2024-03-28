@@ -1,7 +1,7 @@
 import Header from './src/components/_Homepage/_Header/Main/header'
 import About from './src/components/_Homepage/_About/Main/about'
 import Feedback from './src/components/_Homepage/_Feedback/Main/feedback'
-import Footer from "./src/components/_Homepage/_Footer/footer"
+import Footer from "./src/components/_Globais/_Footer/footer"
 
 export default function Home() {
   return (
