@@ -14,6 +14,7 @@ function Section(props: SectionProps) {
   return (
     <div className={styles.header}>
       <Navbar></Navbar>
+      
       <div className={styles.container}>
         <div className={styles.textContainer}>
           <h1 className={styles.titulo}>{props.titulo}</h1>

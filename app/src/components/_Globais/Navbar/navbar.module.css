@@ -12,7 +12,10 @@
     justify-content: space-between;
 }
 
-.navBar a {
+.navBar button {
+    background: none;
+    border: none;
+    cursor: pointer;
     color: var(--Branco-1);
     text-decoration: none;
     padding-bottom: .5rem;
@@ -45,4 +48,8 @@
 
 .item:after {
     transform-origin: 0% 100%;
+}
+
+.active {
+   color: red !important;
 }

@@ -2,8 +2,18 @@
 import Link from "next/link";
 import styles from "./navbar.module.css";
 import Image from "next/image";
+import { useRouter, usePathname } from "next/navigation";
 
 export default function Navbar() {
+  const router = useRouter();
+
+  const rotas = ["/", "/sobre", "/membros", "/contato", "/eventos"]
+  const rotasNomes = ["Home", "Sobre", "Membros", "Contato", "Eventos"]
+
+  const pathname = usePathname();
+
+
+
   return (
     <div>
       <nav>
@@ -14,21 +24,18 @@ export default function Navbar() {
             </Link>
           </div>
           <div className={styles.links}>
-            <Link className={styles.item} href="/">
-              Home
-            </Link>
-            <Link className={styles.item} href="/sobre">
-              Sobre
-            </Link>
-            <Link className={styles.item} href="/membros">
-              Membros
-            </Link>
-            <Link className={styles.item} href="/contato">
-              Contato
-            </Link>
-            <Link className={styles.item} href="/eventos">
-              Eventos
-            </Link>
+            {rotas.map((rota, index) => (
+              <button
+                key={index}
+                className={`${styles.item} ${pathname === rota ? styles.active : ''}`} 
+                type="button"
+                onClick={() => {
+                  router.push(rota);
+                }}
+              >
+                {rotasNomes[index]}
+              </button>
+            ))}
           </div>
         </div>
       </nav>
