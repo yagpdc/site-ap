@@ -1,11 +1,14 @@
 import React from 'react'
-import Navbar from '../../_Globais/Navbar/navbar'
-import styles from './header.module.css'
+import Section from '../../_Globais/_Section/section'
+import Footer from '../../_Globais/_Footer/footer'
 
 function header() {
   return (
-    <div className={styles.header}>
-        <Navbar></Navbar>
+    <div>
+      <Section>
+        <h1>Sobre</h1>
+      </Section>
+      <Footer />
     </div>
   )
 }

@@ -8,7 +8,6 @@ export default function Home() {
     <main className="main">
       <Header titulo="Abrindo Portas Inglês para todos" subtitulo="Abra as portas do seu futuro com o inglês. Com Abrindo Portas, essa chave é 100% gratuita, e juntos, vamos transformar seus sonhos em realidade!"></Header>
       <About></About>
-      <Examples />
       <Feedback></Feedback>
       <Footer></Footer>
     </main>

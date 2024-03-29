@@ -12,8 +12,6 @@ export default function Navbar() {
 
   const pathname = usePathname();
 
-
-
   return (
     <div>
       <nav>

@@ -3,6 +3,7 @@ import Button from "../Button/button";
 import styles from "./header.module.css";
 import Navbar from "../../../_Globais/Navbar/navbar";
 import Image from "next/image";
+import Section from "../../../_Globais/_Section/section";
 
 interface SectionProps {
   titulo: string;
@@ -10,11 +11,10 @@ interface SectionProps {
   children?: ReactNode;
 }
 
-function Section(props: SectionProps) {
+function Header(props: SectionProps) {
   return (
     <div className={styles.header}>
       <Navbar></Navbar>
-      
       <div className={styles.container}>
         <div className={styles.textContainer}>
           <h1 className={styles.titulo}>{props.titulo}</h1>
@@ -56,4 +56,4 @@ function Section(props: SectionProps) {
   );
 }
 
-export default Section;
+export default Header;
