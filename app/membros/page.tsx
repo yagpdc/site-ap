@@ -1,13 +1,13 @@
 import React, { ReactNode } from 'react'
-import Section from '../src/components/_Globais/_Section/section'
+import HeroTemplate from '../src/components/_Globais/_Section/section'
 import Footer from '../src/components/_Globais/_Footer/footer'
 
 function membros() {
   return (
     <div>
-      <Section>
+      <HeroTemplate>
         <h1>Membros</h1>
-      </Section>
+      </HeroTemplate>
         <Footer></Footer>
     </div>
   )

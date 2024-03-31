@@ -1,13 +1,13 @@
 import React from 'react'
-import Section from '../../_Globais/_Section/section'
+import HeroTemplate from '../../_Globais/_Section/section'
 import Footer from '../../_Globais/_Footer/footer'
 
 function header() {
   return (
     <div>
-      <Section>
+      <HeroTemplate>
         <h1>Sobre</h1>
-      </Section>
+      </HeroTemplate>
       <Footer />
     </div>
   )
