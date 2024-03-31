@@ -139,7 +139,7 @@ Para acessar os arquivos estáticos, utilize a seguinte sintaxe:
 - Os componentes devem ser criados utilizando a extensão `.tsx`
 - Os componentes devem ter tipagem utilizando TypeScript
 - Os estilos dos componentes devem ser criados utilizando a extensão `.module.css`
-- Os componentes devem ser criados dentro da pasta `src/components/_Globais`
+- Os componentes devem ser criados dentro da pasta `src/components/`
 - Funções devem ser criadas utilizando camelCase
 - Componentes devem ser criados utilizando PascalCase
 - Componentes devem ser exportados utilizando a palavra-chave `export default`
