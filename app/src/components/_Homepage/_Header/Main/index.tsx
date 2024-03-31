@@ -1,9 +1,9 @@
 import React, { ReactNode } from "react";
-import Button from "../Button/button";
-import styles from "./header.module.css";
-import Navbar from "../../../_Globais/Navbar/navbar";
+import Button from "../Button";
+import styles from "./styles.module.css";
+import Navbar from "../../../_Globais/Navbar";
 import Image from "next/image";
-import Section from "../../../_Globais/_Section/section";
+import Section from "../../../_Globais/_Section";
 
 interface SectionProps {
   titulo: string;

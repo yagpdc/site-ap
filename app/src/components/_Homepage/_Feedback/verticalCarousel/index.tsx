@@ -1,9 +1,9 @@
 "use client";
 import React, { Component } from "react";
 import Slider from "react-slick";
-import Comment from "../Comments/comments";
+import Comment from "../Comments";
 import commentData from "../../../../Helpers/comments";
-import styles from "../Main/feedback.module.css";
+import styles from "../Main/styles.module.css";
 
 export default class VerticalMode extends Component {
   render() {

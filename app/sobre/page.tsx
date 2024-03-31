@@ -1,5 +1,5 @@
 import React from 'react'
-import Header from '../src/components/_Sobre/header/header'
+import Header from '../src/components/_Sobre/header'
 
 function about() {
   return (

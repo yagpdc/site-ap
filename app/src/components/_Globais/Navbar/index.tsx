@@ -1,6 +1,6 @@
 "use client";
 import Link from "next/link";
-import styles from "./navbar.module.css";
+import styles from "./styles.module.css";
 import Image from "next/image";
 import { useRouter, usePathname } from "next/navigation";
 

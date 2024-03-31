@@ -1,6 +1,6 @@
 import React from "react";
-import styles from "../Main/feedback.module.css"
-import VerticalMode from "../verticalCarousel/verticalCarrousel";
+import styles from "../Main/styles.module.css"
+import VerticalMode from "../verticalCarousel";
 
 function Feedback() {
   return (

@@ -1,6 +1,6 @@
 import React from 'react'
-import HeroTemplate from '../../_Globais/_Section/section'
-import Footer from '../../_Globais/_Footer/footer'
+import HeroTemplate from '../../_Globais/_Section'
+import Footer from '../../_Globais/_Footer'
 
 function header() {
   return (

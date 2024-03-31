@@ -1,7 +1,7 @@
-import Header from './src/components/_Homepage/_Header/Main/header'
-import About from './src/components/_Homepage/_About/Main/about'
-import Feedback from './src/components/_Homepage/_Feedback/Main/feedback'
-import Footer from "./src/components/_Globais/_Footer/footer"
+import Header from './src/components/_Homepage/_Header/Main'
+import About from './src/components/_Homepage/_About/Main'
+import Feedback from './src/components/_Homepage/_Feedback/Main'
+import Footer from "./src/components/_Globais/_Footer"
 import Examples from '../app/src/components/_Globais/examples'
 export default function Home() {
   return (

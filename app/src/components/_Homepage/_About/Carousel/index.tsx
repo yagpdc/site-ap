@@ -3,8 +3,8 @@ import React, { useState, useRef } from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import Card, { CardProps } from "../Card/card";
-import styles from "./carousel.module.css";
+import Card, { CardProps } from "../Card";
+import styles from "./styles.module.css";
 
 interface CarouselProps {
   cards: CardProps[];

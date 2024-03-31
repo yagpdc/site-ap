@@ -1,6 +1,6 @@
 import React from 'react'
-import HeroTemplate from '../src/components/_Globais/_Section/section'
-import Footer from '../src/components/_Globais/_Footer/footer'
+import HeroTemplate from '../src/components/_Globais/_Section'
+import Footer from '../src/components/_Globais/_Footer'
 
 function contato() {
   return (
