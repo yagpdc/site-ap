@@ -33,15 +33,14 @@ Abra [http://localhost:3000](http://localhost:3000) com o seu navegador para ver
 
 ## Arquitetura de pastas
 
-### Para adicionar um novo componente
+### Para adicionar um novo componente global
 
 1. Crie uma pasta com o nome do componente dentro de `src/components/_Globais`
 2. Crie um arquivo `index.tsx` e um arquivo `styles.module.css` dentro da pasta criada
 3. Importe o arquivo `styles.module.css` no arquivo `index.tsx`
 4. Exporte o componente para ser utilizado em outras partes do projeto
 
-##### Seu componente deve ficar assim:
-
+##### Seu componente deve estar da seguinte forma:
 
 
 ```bash
@@ -72,7 +71,7 @@ Abra [http://localhost:3000](http://localhost:3000) com o seu navegador para ver
 2. O nome da pasta deve ser o mesmo nome da página e iniciar com _ (underline), exemplo: `_Home`
 3. Dentro da pasta criada, crie as pastas para cada componente que será utilizado na página e siga o mesmo passo a passo para adicionar um novo componente
 
-##### Sua pasta de componentes deve da seguinte forma:
+##### Sua pasta de componentes deve estar da seguinte forma:
 
 ```bash
 
@@ -101,7 +100,7 @@ Abra [http://localhost:3000](http://localhost:3000) com o seu navegador para ver
 3. Dentro da pasta criada, crie um arquivo `page.tsx`
 4. Importe os componentes que serão utilizados no aquivo `page.tsx` e exporte a página
 
-##### Sua página deve ficar assim:
+##### Sua página deve estar da seguinte forma:
 
 ```bash
 
@@ -127,7 +126,7 @@ Para acessar os arquivos estáticos, utilize a seguinte sintaxe:
 <Image src="/nome-do-arquivo.png" alt="Nome do arquivo" />
 ```
 
-##### Lembrete importante: É necessário utilizar o componente `Image` do NextJS para utilziação de imagens e arquivos estáticos
+##### Lembrete importante: É necessário utilizar o componente `Image` do NextJS para utilização de imagens e arquivos estáticos
 
 
 
