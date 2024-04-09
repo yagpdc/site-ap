@@ -1,0 +1,66 @@
+.container, .containerUp{
+    width: 450px;
+    height: 251px;
+    background-color: var(--Azul-1);
+    -webkit-mask-image: url('../../../../../../public/roadDots.svg');    
+    mask-image: url('../../../../../../public/roadDots.svg');
+    background-size: contain;
+    background-position: left;
+    background-repeat: no-repeat;
+    transform: translate(-218px);
+    animation: appear ease-in-out;
+    animation-duration: 1ms;
+    animation-timeline: view();
+    animation-range: cover 0% cover 60%;
+}
+
+.containerUp{    
+    -webkit-mask-image: url('../../../../../../public/roadDotsUp.svg');    
+    mask-image: url('../../../../../../public/roadDotsUp.svg');
+}
+
+@keyframes appear{
+    0% {
+        background: linear-gradient(180deg, var(--Azul-1) 0%,  rgba(214, 214, 214, 0) 1%);
+    }
+    
+    10% {
+        background: linear-gradient(180deg, var(--Azul-1) 10%,  rgba(214, 214, 214, 0) 11%);
+    }
+
+    20% {
+        background: linear-gradient(180deg, var(--Azul-1) 20%,  rgba(214, 214, 214, 0) 21%);
+    }
+
+    30% {
+        background: linear-gradient(180deg, var(--Azul-1) 30%,  rgba(214, 214, 214, 0) 31%);
+    }
+
+    40% {
+        background: linear-gradient(180deg, var(--Azul-1) 40%,  rgba(214, 214, 214, 0) 41%);
+    }
+
+    50% {
+        background: linear-gradient(180deg, var(--Azul-1) 50%,  rgba(214, 214, 214, 0) 51%);
+    }
+
+    60% {
+        background: linear-gradient(180deg, var(--Azul-1) 60%,  rgba(214, 214, 214, 0) 61%);
+    }
+
+    70% {
+        background: linear-gradient(180deg, var(--Azul-1) 70%,  rgba(214, 214, 214, 0) 71%);
+    }
+
+    80% {
+        background: linear-gradient(180deg, var(--Azul-1) 80%,  rgba(214, 214, 214, 0) 81%);
+    }
+
+    90% {
+        background: linear-gradient(180deg, var(--Azul-1) 90%,  rgba(214, 214, 214, 0) 91%);
+    }
+
+    100%{
+        background: linear-gradient(180deg, var(--Azul-1) 100%,  rgba(214, 214, 214, 0) 100%);
+    }
+}

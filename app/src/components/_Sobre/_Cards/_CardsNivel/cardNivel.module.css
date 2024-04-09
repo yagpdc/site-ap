@@ -1,0 +1,80 @@
+.container{
+    width: 380px;
+    height: 600px;
+    padding: 30px;
+    border-radius: 15px;
+    background-color: var(--Branco-2);
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.linha{
+    height: 3px;
+    width: 100%;
+    background-color: var(--Azul-2);
+    border-radius: 50%;
+}
+
+.item1, .item2{
+    height: 15%;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.item1{
+    background-image: url('../../../../../../public/lrivro.svg');
+}
+
+.item2{
+    background-image: url('../../../../../../public/lrivroTriplo.svg');
+}
+
+.title{
+    height: 10%;
+    text-align: center;
+    color: var(--Azul-1);
+    font: var(--Headings-L);
+}
+
+.lista{
+    position: relative;
+    overflow-y: scroll;
+    opacity: 0% 25%;
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    -webkit-mask-image: linear-gradient(to bottom, rgba(0,0,0,1) 0%, rgb(0, 0, 0) 50%, rgba(0, 0, 0, 0.616) 100%);
+    -webkit-mask-size: 100% 100%;
+    -webkit-mask-repeat: no-repeat;
+    mask-image: linear-gradient(to bottom, rgba(0,0,0,1) 0%, rgb(0, 0, 0) 50%, rgba(0, 0, 0, 0.377) 100%);
+    mask-size: 100% 100%;
+    mask-repeat: no-repeat;
+}
+
+.lista::-webkit-scrollbar{
+    display: none;
+}
+
+.conteudo{
+    height: 30%;
+    text-align: center;
+    color: var(--Azul-2);
+    font: var(--Body-M);
+}
+
+.itens{
+    font: var(--Body-Bold-S);
+    color: var(--Azul-2);
+}
+
+.itens:hover{
+    transform: translate( 10px );
+}
+
+.check{
+    color: rgb(230, 152, 7);
+    margin-right: 5px;
+}
