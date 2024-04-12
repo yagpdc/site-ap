@@ -1,6 +1,6 @@
 import React from 'react'
 import Header from '../src/components/_Globais/_HeaderClean/header'
-import Titulo from '../src/components/_Sobre/_Titulo/titulo'
+import Titulo from '../src/components/_Globais/_Titulo/titulo'
 import CardsSobre from '../src/components/_Sobre/_Cards/_CardsSobre/cardsSobre'
 import Dots from '../src/components/_Sobre/_Cards/_CardsSobre/dots'
 import CardNivel from '../src/components/_Sobre/_Cards/_CardsNivel/cardsNivel'
