@@ -1,0 +1,16 @@
+.container{
+    width: 220px;
+    height: 80px;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--Azul-1);
+    color: var(--Branco-2);
+    font: var(--Body-L);
+}
+
+.container:hover{
+    background-color: var(--Azul-2);
+    
+}

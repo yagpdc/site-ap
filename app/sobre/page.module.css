@@ -1,0 +1,44 @@
+.containerBack{
+    background-image: url('../../public/backgroundBlob.svg');
+    background-position: center;
+    background-size: 100% auto;
+}
+
+.container{
+    background: linear-gradient(180deg, rgba(238, 238, 238, 0) 0%, #e4e4f696 65%, #e4e4f6 70%, #E4E4F6 100%);
+    padding: 50px 0px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.title{
+    width: 40%;
+    margin: 180px;    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title h1{    
+    font: var(--Headings-XXL);
+    color: var(--Azul-1);
+}
+
+.title p{
+    font: var(--Body-L);
+    color: var(--Azul-2);
+    text-align: center;
+}
+
+.containerCardsNivel{
+    display: flex;
+    margin: 80px;
+    gap: 150px;
+    margin-top: -80px;
+}
+
+
+

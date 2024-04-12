@@ -1,0 +1,67 @@
+.containerLeft, .containerRight{
+    width: 1000px;
+    min-height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 35px;
+    animation: slide ease-in-out;
+    animation-timeline: view();
+    animation-range: cover 0% cover 25%;
+}
+
+.containerRight{
+    justify-content: flex-end;
+}
+
+.fechadura{
+    height: 150px;
+    min-width: 124px;
+    padding-top: 10px;
+    background-image: url("../../../../../../public/fechaduraItem.svg");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    font: var(--Headings-XL);
+    color: var(--Branco-2);
+}
+.text{
+    flex: 1;
+    max-width: 400px;
+    min-height: 130px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around;
+    gap: 15px;
+    color: var(--Azul-1);
+    font: var(--Headings-XS);
+}
+
+.text p{
+    flex: 1;
+    font: var(--Body-M);
+    display: flex;
+    align-items: flex-start;
+}
+
+.marker{
+    padding: 0 8px;
+    margin: 0 3px;
+    background-color: var(--teste);
+    color: var(--Branco-2);
+}
+
+@keyframes slide {
+    from {
+        opacity: 0%;
+        translate: -3vw 0;
+    }
+
+    to {
+        opacity: 100%;
+        translate: 0 0;
+    }
+}

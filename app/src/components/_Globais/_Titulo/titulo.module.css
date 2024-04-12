@@ -1,0 +1,39 @@
+.title{
+    height: 400px;
+    padding: 50px 500px;
+    background-color: var(--Azul-1);
+    color: var(--Branco-2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 80px;
+}
+
+.title h1{
+    font: var(--Headings-XL);
+}
+
+.title p{
+    font: var(--Body-S);
+    text-align: center;
+    line-height: 20px;
+}
+
+@media (max-width: 500px){
+    .title{
+        width: 100%;
+        min-height: 180px;
+        padding: 5px 20px;
+        gap: 20px;
+    } 
+    
+    .title h1{
+        font: var(--Headings-S);
+    }
+
+    .title p{
+        font: var(--Body-XS);
+        line-height: 20px;
+    }
+}
