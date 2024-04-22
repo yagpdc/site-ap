@@ -41,7 +41,7 @@ const Carousel: React.FC<CarouselProps> = ({ cards }) => {
 
   return (
     <>
-      <Slider ref={sliderRef} {...settings}>
+      <Slider  ref={sliderRef} {...settings}>
         {cards.map((card, index) => {
           const cardStyle = {
             opacity: index !== selectedCardIndex ? 0.5 : 1,
