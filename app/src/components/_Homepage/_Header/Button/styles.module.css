@@ -1,41 +1,41 @@
 .button {
-    display: block;
-    height: 3rem;
-    width: 10rem;
-    background-color: var(--Branco-1);
-    color: var(--Azul-1);
-    text-align: center;
-    border-radius: .4rem;
-    font: var(--Body-Bold-M);
-    line-height: 2.8rem;
-    position: relative;
-    overflow: hidden;
-  }
+  display: block;
+  height: 3rem;
+  width: 10rem;
+  background-color: var(--Branco-1);
+  color: var(--Azul-1);
+  text-align: center;
+  border-radius: .4rem;
+  font: var(--Body-Bold-M);
+  line-height: 2.8rem;
+  position: relative;
+  overflow: hidden;
+}
   
-  .button span {
-    display: inline-block;
-    position: relative;
-    transition: 0.5s;
-  }
+.button span {
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
   
-  .button:hover span {
-    padding-right: 25px;
-  }
+.button:hover span {
+  padding-right: 25px;
+}
   
-  .button svg {
-    position: absolute;
-    top: 50%;
-    right: 0;
-    transform: translateY(-50%);
-    opacity: 0;
-    transition: 0.5s;
-  }
+.button svg {
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: translateY(-50%);
+  opacity: 0;
+  transition: 0.5s;
+}
   
-  .button:hover svg {
-    opacity: 1;
-    right: 5px;
-  }
+.button:hover svg {
+  opacity: 1;
+  right: 5px;
+}
   
-  .button svg path {
-    fill: var(--Azul-1);
-  }
+.button svg path {
+  fill: var(--Azul-1);
+}

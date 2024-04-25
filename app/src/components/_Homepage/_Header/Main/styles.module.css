@@ -49,3 +49,43 @@
     text-align: center;
     margin-bottom: 4rem;
 }
+
+@media (max-width: 768px) {
+    .textContainer {
+        width: 70%; /* Ajuste conforme necessário para dispositivos menores */
+    }
+
+    .titulo {
+        font-size: 2.5rem; /* Reduzi o tamanho da fonte para dispositivos menores */
+    }
+
+    .blank {
+        height: 30vh; /* Reduzi a altura para dispositivos menores */
+    }
+
+    .title {
+        font-size: 2rem; /* Reduzi o tamanho da fonte para dispositivos menores */
+    }
+}
+
+@media (max-width: 376px) {
+    .header {
+
+    }
+    
+    .textContainer {
+        width: 90%; /* Ajuste conforme necessário para dispositivos ainda menores */
+    }
+
+    .titulo {
+        font-size: 2rem; /* Reduzi ainda mais o tamanho da fonte para dispositivos muito pequenos */
+    }
+
+    .blank {
+        height: 20vh; /* Reduzi a altura para dispositivos muito pequenos */
+    }
+
+    .title {
+        font-size: 1.5rem; /* Reduzi ainda mais o tamanho da fonte para dispositivos muito pequenos */
+    }
+}
