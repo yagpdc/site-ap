@@ -29,9 +29,9 @@ function Comments(props: commentsProps) {
         </div>
         <div>
           <p className={props.textStyle}>
-            <span>" </span>
+            <span></span>
             {props.comments}
-            <span> "</span>
+            <span></span>
           </p>
           <p className={props.translationStyle}>{props.translation}</p>
         </div>
