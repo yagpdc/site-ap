@@ -2,7 +2,6 @@ import Header from "./src/components/_Homepage/_Header/Main";
 import About from "./src/components/_Homepage/_About/Main";
 import Feedback from "./src/components/_Homepage/_Feedback/Main";
 import Footer from "./src/components/_Globais/_Footer";
-import Examples from "../app/src/components/_Globais/examples";
 import HeroTemplate from "./src/components/_Globais/_Section/index";
 export default function Home() {
   return (

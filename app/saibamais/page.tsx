@@ -93,7 +93,7 @@ function sobre() {
             />
             <CardNivel
               livro = {false}
-              titulo = "ITERMEDIÁRIO"
+              titulo = "INTERMEDIÁRIO"
               conteudo = "Para você que já tem conhecimento de alguns assuntos e quer aprimorar suas habilidades."
               listaItem={listIntermediario}
             />
