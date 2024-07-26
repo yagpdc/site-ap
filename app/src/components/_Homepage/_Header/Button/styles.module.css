@@ -2,12 +2,12 @@
   display: block;
   height: 3rem;
   width: 10rem;
-  background-color: var(--Branco-1);
+  background-color: #fff;
   color: var(--Azul-1);
   text-align: center;
   border-radius: .4rem;
   font: var(--Body-Bold-M);
-  line-height: 2.8rem;
+  line-height: 3rem;
   position: relative;
   overflow: hidden;
 }
