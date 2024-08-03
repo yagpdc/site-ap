@@ -2,7 +2,7 @@ import React from 'react'
 import styles from "./styles.module.css";
 import Navbar from '../Navbar'
 
-function HeroTemplate({children}: {children: React.ReactNode}) {
+function SectionTemplate({children}: {children: React.ReactNode}) {
     return (
         <div className={styles.section}>
             <Navbar />
@@ -13,4 +13,4 @@ function HeroTemplate({children}: {children: React.ReactNode}) {
       )
 }
 
-export default HeroTemplate
+export default SectionTemplate

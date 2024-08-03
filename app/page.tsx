@@ -3,6 +3,7 @@ import About from "./src/components/_Homepage/_About/Main";
 import Feedback from "./src/components/_Homepage/_Feedback/Main";
 import Footer from "./src/components/_Globais/_Footer";
 import HeroTemplate from "./src/components/_Globais/_Section/index";
+
 export default function Home() {
   return (
     <main className="main">

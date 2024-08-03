@@ -17,7 +17,7 @@ const Carousel: React.FC<CarouselProps> = ({ cards }) => {
   const settings = {
     dots: true,
     infinite: true,
-    speed: 500,
+    speed: 400,
     slidesToShow: 1,
     slidesToScroll: 1,
     variableWidth: true,
@@ -44,7 +44,7 @@ const Carousel: React.FC<CarouselProps> = ({ cards }) => {
       <Slider  ref={sliderRef} {...settings}>
         {cards.map((card, index) => {
           const cardStyle = {
-            opacity: index !== selectedCardIndex ? 0.5 : 1,
+            opacity: index !== selectedCardIndex ? 0.4 : 1,
             transition: "opacity 0.5s ease-out", 
           };
           return (

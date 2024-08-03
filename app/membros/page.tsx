@@ -1,14 +1,17 @@
 import React, { ReactNode } from 'react'
-import HeroTemplate from '../src/components/_Globais/_Section'
+import SectionTemplate from '../src/components/_Globais/_Section'
 import Footer from '../src/components/_Globais/_Footer'
+import Header from './../src/components/_Membros/_Header/header';
+
+
 
 function membros() {
   return (
     <div>
-      <HeroTemplate>
-        <h1>Membros</h1>
-      </HeroTemplate>
-        <Footer></Footer>
+      <SectionTemplate>
+        <Header />
+      </SectionTemplate>
+        <Footer />
     </div>
   )
 }
