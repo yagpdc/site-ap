@@ -1,7 +1,7 @@
 .container {
     padding-top: 60px;
     display: flex;
-    align-items: center;
+    align-items: end;
     justify-content: center;
     width: 100%;
 }
@@ -20,6 +20,10 @@
     padding: 0 10px;
     font: var(--Body-L);
     background-color: #D3D3EF;
+}
+
+.filterInput:focus {
+    outline: none;
 }
 
 .formContainer {
