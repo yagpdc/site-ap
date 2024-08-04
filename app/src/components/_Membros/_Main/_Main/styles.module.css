@@ -1,0 +1,10 @@
+.container {
+    padding-top: 60px;
+    background-color: white;
+    height: 100vh;
+}
+
+.title {
+    font: var(--Headings-XXL);
+    text-align: center;
+}

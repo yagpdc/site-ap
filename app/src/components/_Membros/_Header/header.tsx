@@ -2,7 +2,12 @@ import React from 'react'
 import styles from './styles.module.css'
 import Box from './../../_Globais/_Shapes/square/index';
 
-function header() {
+type headerProps = {
+    title: string;
+    subtitles: string;
+}
+
+function header({ title, subtitles} : headerProps) {
   return (
     <div  className={styles.container}>
         <div className={styles.rImgBox}>
@@ -10,9 +15,9 @@ function header() {
             <Box />
         </div>
         <div className={styles.content}>
-            <h1 className={styles.title}>Membros</h1>
+            <h1 className={styles.title}>{title}</h1>
             <h1 className={styles.subtitle}>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                {subtitles}
             </h1>
         </div>
         <div className={styles.lImgBox}>
