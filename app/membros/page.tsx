@@ -3,6 +3,7 @@ import SectionTemplate from '../src/components/_Globais/_Section'
 import Footer from '../src/components/_Globais/_Footer'
 import Header from './../src/components/_Membros/_Header/header';
 import Main from './../src/components/_Membros/_Main/_Main/main';
+import Filter from './../src/components/_Membros/_Main/_Filter/filter';
 
 
 
@@ -17,7 +18,11 @@ function membros() {
       </SectionTemplate>
         <Main
             title='Conheça nossos membros'
-        />
+        >
+        <div>
+            <Filter />
+        </div>
+        </Main>
         <Footer />
     </div>
   )

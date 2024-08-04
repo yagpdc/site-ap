@@ -1,0 +1,13 @@
+.tag {
+    border: none;
+    border-radius: 5px;
+    padding: 8px 15px;
+    background-color: var(--Azul-1);
+    color: var(--Branco-2);
+    font: var(--Body-S);
+}
+
+.tag:hover {
+    background-color: var(--Azul-2);
+
+}
