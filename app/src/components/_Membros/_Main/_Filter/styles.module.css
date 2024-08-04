@@ -9,3 +9,31 @@
 .container button  {
     margin-right: 30px;
 }
+
+.filterInput {
+    height: 40px;
+    border-left: 5px solid var(--Rosa-1);
+    border-right: none;
+    border-top: none;
+    border-bottom: none;
+    border-radius: 5px;
+    padding: 0 10px;
+    font: var(--Body-L);
+    background-color: #D3D3EF;
+}
+
+.formContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.buttonForm {
+    position: absolute;
+    right: -20px;
+    border: none;
+    cursor: pointer;
+    background-color: #D3D3EF;
+
+}

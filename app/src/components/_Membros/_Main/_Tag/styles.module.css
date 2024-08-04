@@ -5,6 +5,7 @@
     background-color: var(--Azul-1);
     color: var(--Branco-2);
     font: var(--Body-S);
+    cursor: pointer;
 }
 
 .tag:hover {
