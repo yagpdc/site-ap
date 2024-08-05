@@ -11,13 +11,14 @@
   --Rosa-1: #F07A7A;
   --Amarelo-1: #F2C454;
 
-  --Headings-XXL: 700 3.5rem 'Roboto Slab', serif;
-  --Headings-XL: 700 3rem 'Roboto Slab', serif;
-  --Headings-L: 700 2.5rem 'Roboto Slab', serif;
-  --Headings-M: 700 2rem 'Roboto Slab', serif;
-  --Headings-S: 700 1.5rem 'Roboto Slab', serif;
-  --Headings-XS: 700 1.25rem 'Roboto Slab', serif;
-  --Headings-XXS: 700 1rem 'Roboto Slab', serif;
+
+  --Headings-XXL: 700 3.5rem 'Roboto Slab', serif; /* 56px */
+  --Headings-XL: 700 3rem 'Roboto Slab', serif; /* 48px */
+  --Headings-L: 700 2.5rem 'Roboto Slab', serif; /* 40px */
+  --Headings-M: 700 2rem 'Roboto Slab', serif; /* 32px */
+  --Headings-S: 700 1.5rem 'Roboto Slab', serif; /* 24px */
+  --Headings-XS: 700 1.25rem 'Roboto Slab', serif; /* 20px */
+  --Headings-XXS: 700 1rem 'Roboto Slab', serif; /* 16px */
 
 
   --Body-XL: 500  1.375rem 'Montserrat', sans-serif;

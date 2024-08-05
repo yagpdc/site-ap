@@ -4,12 +4,14 @@ import Footer from '../src/components/_Globais/_Footer'
 import Header from './../src/components/_Membros/_Header/header';
 import Main from './../src/components/_Membros/_Main/_Main/main';
 import Filter from './../src/components/_Membros/_Main/_Filter/filter';
+import Card from './../src/components/_Membros/_Main/_Card/Card';
+import Grid from './../src/components/_Membros/Grid/grid';
 
 
 
 function membros() {
   return (
-    <div>
+    <div style={{backgroundColor: 'blue'}}>
       <SectionTemplate>
         <Header
             title='Membros'
@@ -22,6 +24,32 @@ function membros() {
         <div>
             <Filter />
         </div>
+        <Grid>
+            <Card
+                nome='João'
+                imagem='/placeholder-profile.png'
+                data='01/01/2021'
+                setor='Desenvolvimento'
+            />
+            <Card
+                nome='João'
+                imagem='/placeholder-profile.png'
+                data='01/01/2021'
+                setor='Desenvolvimento'
+            />
+            <Card
+                nome='João'
+                imagem='/placeholder-profile.png'
+                data='01/01/2021'
+                setor='Desenvolvimento'
+            />
+            <Card
+                nome='João'
+                imagem='/placeholder-profile.png'
+                data='01/01/2021'
+                setor='Desenvolvimento'
+            />
+        </Grid>
         </Main>
         <Footer />
     </div>

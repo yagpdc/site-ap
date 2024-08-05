@@ -1,0 +1,67 @@
+.container {
+    background-color: var(--Azul-1);
+    position: relative;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.circle {
+    background-color: var(--Azul-2);
+    border-radius: 50%;
+    top: -50px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 120px;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    border: 10px solid var(--Azul-1);
+    position: absolute;
+}
+
+.circle img {
+    width: 100%;
+    height: 100%;
+}
+
+.textContainer {
+    color: var(--Branco-1);
+    padding-top: 80px;
+    text-align: center;
+}
+
+.title {
+    background-color: var(--Branco-1);
+    color: var(--Azul-1);
+    font: var(--Headings-XXS);
+    padding: 5px 10px;
+    border-radius: 30px;
+    margin-bottom: 10px;
+}
+
+
+.info {
+    font : var(--Headings-XXS);
+    border-radius: 30px;
+    border: 2px solid var(--Branco-1);
+    padding: 10px 5px;
+    margin: 10px 0px;
+}
+
+.icon {
+    background-color: var(--Azul-2);
+    border-radius: 50%;
+    right: -50px;
+    top: 38%;
+    transform: translateX(-50%);
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    border: 5px solid var(--Azul-1);
+    position: absolute;
+}
