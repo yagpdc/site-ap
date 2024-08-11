@@ -56,7 +56,7 @@ function Membros() {
                         ))
                     ) : (
 
-                        <h3 className={styles.noMembers}>Não encontramos nenhum membro que corresponda à sua busca.</h3>
+                        <h3 className={styles.noMembers}>Não encontramos nenhum membro que corresponda à sua busca</h3>
 
                     )}
                 </Grid>

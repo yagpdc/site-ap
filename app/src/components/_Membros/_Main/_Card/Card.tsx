@@ -1,9 +1,9 @@
 import React from 'react'
-import Image from 'next/image'
+import Image, { StaticImageData } from 'next/image'
 import styles from './styles.module.css'
 interface CardProps {
     nome: string
-    imagem: string
+    imagem: StaticImageData
     data: string
     setor: string
     }
