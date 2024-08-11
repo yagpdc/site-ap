@@ -17,13 +17,13 @@ function Card({nome, imagem, data, setor}: CardProps) {
             </div>
             <div className={styles.textContainer}>
                 <h1 className={styles.title}>{nome}</h1>
-                <p>entrou</p>
+                <p>Entrou</p>
                 <h1 className={styles.info}>{data}</h1>
-                <p>setor</p>
+                <p>Setor</p>
                 <h1 className={styles.info}>{setor}</h1>
             </div>
         <div className={styles.icon}>
-            <Image src="/locker-icon.svg" width={50} height={50} alt='profile'></Image>
+            <Image src="/locker-icon.svg" width={32} height={32} alt='profile'></Image>
         </div>
         </div>
     </div>

@@ -1,9 +1,9 @@
 import React from 'react'
 import styles from './styles.module.css'
 
-function Grid({children}) {
+function Grid({children, style}) {
   return (
-    <div className={styles.grid}>
+    <div className={style}>
         {children}
     </div>
   )

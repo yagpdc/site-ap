@@ -4,7 +4,15 @@
     grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
     /* grid-template-rows: repeat(auto-fill, minmax(200px, 1fr)); */
     gap: 5rem;
+    row-gap: 10rem;
     scroll-behavior: smooth;
     background-color: white;
 }
 
+.noMembers {
+    grid-column: 1 / -1; /* Faz o elemento ocupar toda a largura da grid */
+    text-align: center;
+    font-size: 1.5rem;
+    color: #333; /* Cor do texto (opcional) */
+    padding: 2rem; /* Espaçamento (opcional) */
+}
