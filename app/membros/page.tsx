@@ -11,7 +11,7 @@ import membros_data from '../src/Helpers/membros';
 import styles from './styles.module.css'
 
 function Membros() {
-    const [filteredSetor, setFilteredSetor] = React.useState<string>('todos');
+    const [filteredSetor, setFilteredSetor] = React.useState<string>('geral');
     const [searchTerm, setSearchTerm] = React.useState<string>('');
 
     function handleSetorChange(setor: string) {
