@@ -1,7 +1,7 @@
 import { StaticImageData } from "next/image"
-import Yago from "/membros/yago.jpg"
-import Toninho from "/membros/toninho.jpg"
-import Placeholder from "/membros/placeholder-membro.png"
+import Yago from "../../../public/membros/yago.jpg"
+import Toninho from "../../../public/membros/toninho.jpg"
+import Placeholder from "../../../public/membros/placeholder-profile.png"
 
 interface MembersObject {
     nome: string,

@@ -23,7 +23,7 @@ function Membros() {
     }
 
     const filteredData = membros_data.filter(member => {
-        const matchesSetor = filteredSetor === 'todos' || member.setor.toLowerCase() === filteredSetor.toLowerCase();
+        const matchesSetor = filteredSetor === 'geral' || member.setor.toLowerCase() === filteredSetor.toLowerCase();
         const matchesSearch = member.nome.toLowerCase().includes(searchTerm.toLowerCase());
         return matchesSetor && matchesSearch;
     });

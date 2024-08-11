@@ -5,7 +5,7 @@ import Tag from './../_Tag/tag';
 import Image from 'next/image';
 
 
-const setores = ['todos','marketing', 'apostila', 'material', 'instrutor', 'coordenação', 'desenvolvimento']
+const setores = ['geral','marketing', 'apostila', 'material', 'instrutor', 'coordenação', 'desenvolvimento']
 
 interface FilterProps  {
     onSetorChange: (setor: string) => void;
@@ -14,7 +14,7 @@ interface FilterProps  {
 
 function Filter({ onSetorChange, onSearchChange }: FilterProps) {
     const [value, setValue] = useState<string>('')
-    const [selectedSetor, setSeletectedSetor] = useState<string>('todos')
+    const [selectedSetor, setSeletectedSetor] = useState<string>('geral')
 
 
     function handleInput(e: React.ChangeEvent<HTMLInputElement>){
@@ -24,7 +24,7 @@ function Filter({ onSetorChange, onSearchChange }: FilterProps) {
 
     function handleSetorClick(setor: string) {
         setSeletectedSetor(setor);
-        onSetorChange(setor); // Passa o setor selecionado
+        onSetorChange(setor); 
     }
 
     function capitalize(string: string){
