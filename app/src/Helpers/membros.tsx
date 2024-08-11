@@ -1,7 +1,11 @@
+import { StaticImageData } from "next/image"
+import Yago from "/membros/yago.jpg"
+import Toninho from "/membros/toninho.jpg"
+import Placeholder from "/membros/placeholder-membro.png"
 
 interface MembersObject {
     nome: string,
-    imagem: string,
+    imagem: StaticImageData,
     data: string,
     setor: string
 }
@@ -9,98 +13,98 @@ interface MembersObject {
 const membros_data: MembersObject[] =[
     {
         nome: "Yago",
-        imagem: "/placeholder-profile.png",
+        imagem: Placeholder,
         data: "02/01/1997",
         setor: "coordenação"
     },
     {
         nome: "Yago",
-        imagem: "/placeholder-profile.png",
+        imagem: Placeholder,
         data: "02/01/1997",
         setor: "apostila"
     },
     {
         nome: "Yago",
-        imagem: "/placeholder-profile.png",
+        imagem: Placeholder,
         data: "02/01/1997",
         setor: "apostila"
     },
     {
         nome: "douglas",
-        imagem: "/placeholder-profile.png",
+        imagem: Placeholder,
         data: "02/01/1997",
         setor: "desenvolvimento"
     },
     {
         nome: "Toninho",
-        imagem: "/membros/toninho.jpg",
+        imagem: Toninho,
         data: "02/01/1997",
         setor: "desenvolvimento"
     },
 
     {
         nome: "Yago",
-        imagem: "/membros/yago.jpg",
+        imagem: Yago,
         data: "02/01/1997",
         setor: "desenvolvimento"
     },
     {
         nome: "Yago",
-        imagem: "/placeholder-profile.png",
+        imagem: Placeholder,
         data: "02/01/1997",
         setor: "material"
     },
     {
         nome: "Yago",
-        imagem: "/placeholder-profile.png",
+        imagem: Placeholder,
         data: "02/01/1997",
         setor: "material"
     },
     {
         nome: "Yago",
-        imagem: "/placeholder-profile.png",
+        imagem: Placeholder,
         data: "02/01/1997",
         setor: "desenvolvimento"
     },
     {
         nome: "Yago",
-        imagem: "/placeholder-profile.png",
+        imagem: Placeholder,
         data: "02/01/1997",
         setor: "instrutor"
     },
     {
         nome: "Yago",
-        imagem: "/placeholder-profile.png",
+        imagem: Placeholder,
         data: "02/01/1997",
         setor: "instrutor"
     },
     {
         nome: "Yago",
-        imagem: "/placeholder-profile.png",
+        imagem: Placeholder,
         data: "02/01/1997",
         setor: "instrutor"
     },
     {
         nome: "Yago",
-        imagem: "/placeholder-profile.png",
+        imagem: Placeholder,
         data: "02/01/1997",
         setor: "marketing"
     },
     {
         nome: "Yago",
-        imagem: "/placeholder-profile.png",
+        imagem: Placeholder,
         data: "02/01/1997",
         setor: "marketing"
     },
     {
         nome: "Yago",
-        imagem: "/placeholder-profile.png",
+        imagem: Placeholder,
         data: "02/01/1997",
         setor: "marketing"
     },
     {
         nome: "Yago",
-        imagem: "/placeholder-profile.png",
+        imagem: Placeholder,
         data: "02/01/1997",
         setor: "desenvolvimento"
     },

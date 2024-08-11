@@ -2,7 +2,6 @@
     padding: 15rem 10rem;
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
-    /* grid-template-rows: repeat(auto-fill, minmax(200px, 1fr)); */
     gap: 5rem;
     row-gap: 10rem;
     scroll-behavior: smooth;
@@ -10,9 +9,9 @@
 }
 
 .noMembers {
-    grid-column: 1 / -1; /* Faz o elemento ocupar toda a largura da grid */
+    grid-column: 1 / -1;
     text-align: center;
     font-size: 1.5rem;
-    color: #333; /* Cor do texto (opcional) */
-    padding: 2rem; /* Espaçamento (opcional) */
+    color: #333;
+    padding: 2rem;
 }
